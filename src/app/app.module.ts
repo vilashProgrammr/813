@@ -15,7 +15,7 @@ import { HttpClientModule} from '@angular/common/http';
 const appRoutes: Routes = [
   {path:'', component:SearchComponent},
   {path:'about', component:AboutComponent},
-  {path:'artist/:id', component:ArtistComponent}
+  {path:'artist/:id', component:ArtistComponent},
   {path:'album/:id', component:AlbumComponent}
 ];
 
