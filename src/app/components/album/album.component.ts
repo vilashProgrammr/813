@@ -6,7 +6,7 @@ import {ActivatedRoute} from '@angular/router';
 @Component({
   moduleId: module.id,
   selector: 'album',
-  templateUrl: './album.component.html'
+  templateUrl: './album.component.html',
   providers : [SpotifyService]
 })
 
